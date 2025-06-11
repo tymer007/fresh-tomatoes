@@ -1,0 +1,22 @@
+{
+    "name": "Fresh Tomatoes",
+    "short_name": "Tomatoes",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#228B22",
+    "description": "AI-powered app for detecting tomato leaf diseases and giving practical farming advice.",
+    "icons": [
+      {
+        "src": "/tomato-192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/tomato-512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ]
+  }
+  
