@@ -119,10 +119,10 @@ const App = () => {
   };
 
   const getHealthRating = (health) => {
-    if (health >= 85) return { rating: "Excellent Health", color: "text-tomGreen", icon: "🍅" };
-    if (health >= 65) return { rating: "Good Health", color: "text-green-600", icon: "🍅" };
-    if (health >= 50) return { rating: "Fair Health", color: "text-yellow-600", icon: "🍅" };
-    return { rating: "Poor Health", color: "text-tomRed", icon: "🍅" };
+    if (health >= 85) return { rating: "Excellent Health", color: "text-tomGreen", image: "tom_rating_1.png", icon: "🍅" };
+    if (health >= 65) return { rating: "Good Health", color: "text-green-600", image: "tom_rating_2.png", icon: "🍅" };
+    if (health >= 50) return { rating: "Fair Health", color: "text-yellow-600", image: "tom_rating_3.png", icon: "🍅" };
+    return { rating: "Poor Health", color: "text-tomRed", image: "tom_rating_4.png", icon: "🍅" };
   };
 
   const testimonials = [
@@ -348,7 +348,7 @@ const App = () => {
 
               {health !== null && (
                 <div className="mb-8 text-center">
-                  <div className="text-6xl mb-4">🍅</div>
+                  <img src={${getHealthRating(health).image}} alt="Fresh Tomatoes Logo" className="w-8" />
                   <div className={`text-3xl font-bold ${getHealthRating(health).color} mb-4`}>
                     {getHealthRating(health).rating}
                   </div>
