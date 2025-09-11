@@ -348,7 +348,7 @@ const App = () => {
 
               {health !== null && (
                 <div className="mb-8 text-center">
-                  <img src={getHealthRating(health).image} alt="Health rating" className="w-8" />
+                  <img src={getHealthRating(health).image} alt="Health rating" className="w-16 text-center" />
                   <div className={`text-3xl font-bold ${getHealthRating(health).color} mb-4`}>
                     {getHealthRating(health).rating}
                   </div>
