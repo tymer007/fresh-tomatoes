@@ -11,8 +11,10 @@ export default {
         tomRed: "#CA1B2B",
         tomDarkRed: "#B52330",
         tomGreen: "#19643A",
-        tomDarkGreen: "#1E4E33",
-        tomWhite: "#ECEDEB"
+        tomDarkGreen: "#165A34",
+        tomDrkrGreen: "#1E4E33",
+        tomWhite: "#ECEDEB",
+        tomDarkWhite: "#DEDEDC"
       },
       fontFamily: {
         sora: ['Sora', 'sans-serif'],
