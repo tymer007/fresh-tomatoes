@@ -606,7 +606,7 @@ const App = () => {
 
           <div className="border-t border-tomWhite pt-8">
             <p className="text-tomWhite text-sm">
-              © 2024 freshtomatoes. All rights reserved.
+              © 2026 freshtomatoes. All rights reserved.
               {/* Your images help improve local research. */}
             </p>
           </div>
