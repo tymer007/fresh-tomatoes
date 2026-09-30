@@ -1,19 +1,22 @@
 {
-  "name": "fresh-tomatoes",
+  "name": "fresh-tomatoes-farmguard",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "node dev-api.mjs & vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
   "dependencies": {
+    "@vercel/analytics": "^2.0.1",
+    "@vercel/blob": "^2.8.0",
     "lucide-react": "^0.514.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "react-hot-toast": "^2.6.0"
+    "react-hot-toast": "^2.6.0",
+    "xlsx": "https://cdn.sheetjs.com/xlsx-0.20.3/xlsx-0.20.3.tgz"
   },
   "devDependencies": {
     "@eslint/js": "^9.25.0",
@@ -28,5 +31,8 @@
     "postcss": "^8.5.3",
     "tailwindcss": "^3.4.1",
     "vite": "^6.3.5"
+  },
+  "engines": {
+    "node": ">=20"
   }
 }
